@@ -41,7 +41,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper
         this.onCreate(db);
     }
 
-    ///Constants for table names
+    ///Constants for table name
     private static final String TABLE_FULLNAME = "fullName";
     private static final String KEY_ID = "id";
     private static final String KEY_FIRSTNAME = "firstName";
