@@ -64,7 +64,7 @@ public class MySQLiteHelper extends SQLiteOpenHelper
 
     }
 
-    public FullName getlFullName(int id)
+    public FullName getFullName(int id)
     {
         SQLiteDatabase db = this.getReadableDatabase();
 

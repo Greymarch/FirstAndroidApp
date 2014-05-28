@@ -13,7 +13,6 @@ import java.util.List;
 
 public class MainActivity2 extends Activity
 {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,9 +40,5 @@ public class MainActivity2 extends Activity
 
         db.deleteFullName(fullNameList.get(0));
         db.getAllFullNames();
-
-
-
-
     }
 }
